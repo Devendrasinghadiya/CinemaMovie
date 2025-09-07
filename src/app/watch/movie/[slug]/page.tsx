@@ -5,5 +5,5 @@ export const revalidate = 3600;
 
 export default function Page({ params }: { params: { slug: string } }) {
   const id = params.slug.split('-').pop();
-  return <EmbedPlayer url={`https://embed.rgshows.me/api/2/movie/?id=${id}`} />;
+  return <EmbedPlayer url={`https://embed.cineflow.us/api/v5/${mediaType}/${id}/${imdb_id}`} />;
 }

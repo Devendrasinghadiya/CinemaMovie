@@ -97,6 +97,7 @@ export default function RootLayout({
           {/* </TrpcProvider> */}
           {env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
             <>
+              <meta name="google-site-verification" content="Su7rKlTcWZ0I-33EunQqc0M1zligKrIyB6SnrLcCZUQ" />
               <Script
                 id="_next-ga-init"
                 dangerouslySetInnerHTML={{
